@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VEPM TV – La chaîne chrétienne de référence</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #ff0000, #b30000);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+    nav {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ff0000;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h2 {
+      color: #ff0000;
+      margin-bottom: 10px;
+    }
+    .video-container iframe {
+      width: 90%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .emissions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .emission {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #333;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #bbb;
+    }
+    footer a {
+      color: #ff0000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>📺 VEPM TV</h1>
+    <p>La télévision chrétienne pour l’évangélisation, la formation et le développement.</p>
+  </header>
+
+  <nav>
+    <a href="#accueil">Accueil</a>
+    <a href="#emissions">Nos Émissions</a>
+    <a href="#live">En Direct</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="accueil">
+    <h2>Bienvenue sur VEPM TV</h2>
+    <p>
+      VEPM TV est une chaîne chrétienne dédiée à la diffusion de programmes spirituels, éducatifs, culturels et sociaux. 
+      Notre mission est d’annoncer la Bonne Nouvelle, d’instruire, d’inspirer et de développer la communauté.
+    </p>
+  </section>
+
+  <section id="emissions">
+    <h2>Nos Émissions</h2>
+    <div class="emissions">
+      <div class="emission"><h3>📖 Prédication</h3><p>Messages inspirants et enseignements bibliques pour nourrir votre foi.</p></div>
+      <div class="emission"><h3>🎓 Formation Chrétienne</h3><p>Programmes éducatifs pour renforcer la connaissance de la Parole de Dieu.</p></div>
+      <div class="emission"><h3>🏫 Éducation Chrétienne</h3><p>Encadrement moral et spirituel pour les jeunes et familles.</p></div>
+      <div class="emission"><h3>⚽ Sports</h3><p>Actualités sportives locales, nationales et internationales.</p></div>
+      <div class="emission"><h3>🎵 Musiques Gospels</h3><p>Moments de louange, d’adoration et découvertes musicales.</p></div>
+      <div class="emission"><h3>🙏 Programmes de Prière</h3><p>Temps de prière en direct et moments d’intercession.</p></div>
+      <div class="emission"><h3>🌍 Évangélisation</h3><p>Actions missionnaires et témoignages de foi autour du monde.</p></div>
+      <div class="emission"><h3>💼 Économie & Société</h3><p>Analyses et débats sur les enjeux sociaux et économiques.</p></div>
+      <div class="emission"><h3>🏗️ Développement</h3><p>Projets communautaires, environnementaux et humanitaires.</p></div>
+      <div class="emission"><h3>🎭 Culture & Arts</h3><p>Émissions sur la culture chrétienne, les arts et la créativité.</p></div>
+    </div>
+  </section>
+
+  <section id="live">
+    <h2>🎬 Diffusion en Direct</h2>
+    <p>Regardez VEPM TV en direct ici :</p>
+    <div class="video-container">
+      <!-- Remplace ce lien YouTube par ton vrai flux ou vidéo -->
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Réseaux</h2>
+    <p>📧 Email : <a href="mailto:contact@vepmtv.com">contact@vepmtv.com</a></p>
+    <p>🌍 Suivez-nous sur :
+      <a href="#">YouTube</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 VEPM TV – Tous droits réservés.</p>
+  </footer>
+
+</body>
+</html>
